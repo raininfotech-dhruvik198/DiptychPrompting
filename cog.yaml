@@ -1,7 +1,7 @@
 build:
   gpu: true
   python_version: "3.8"
-  dependencies:
+  python_packages:
     - "torch"
     - "torchvision"
 predict: "predict.py:Predictor"
